@@ -1,0 +1,25 @@
+# language config, valid values:
+# - zh-cn
+# - en-us
+lang: zh-cn
+secretKeyBase: C526BE23-8916-A8D7-55A6-9BEBB8CA050F
+
+port:
+  www: 4000
+  api: 4001
+  account: 40042
+
+db:
+  app:
+    host: 192.168.0.88
+    port: 3306
+    username: dev
+    password: dev
+    dialect: mysql
+    database: app
+    logging: false
+    pool:
+      max: 10
+      min: 5
+      idle: 30000
+    timezone: +08:00
