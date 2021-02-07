@@ -1,0 +1,11 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lukelelekul/koa-demo.git",
+  "author": "luke@jongde.com <luke@jongde.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.9.0"
+  }
+}
