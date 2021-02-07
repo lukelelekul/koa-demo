@@ -5,7 +5,11 @@
   "repository": "git@github.com:lukelelekul/koa-demo.git",
   "author": "luke@jongde.com <luke@jongde.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "koa": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.7",
+    "@types/node": "^14.14.25"
   }
 }
